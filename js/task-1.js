@@ -1,5 +1,5 @@
 function makeTransaction(quantity, pricePerDroid) {
-    return('You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!');
+    return ('You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!');
 };
 makeTransaction(5, 3000);
 makeTransaction(3, 1000);
